@@ -1,0 +1,368 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.home{
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 115px;
+    width: 434px;
+    background-color: #121212;
+    border-radius: 8px;
+}
+.fir{
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 27px;
+}
+
+.seco{
+    position: absolute;
+    margin-top: 69px;
+    margin-left: 27px;
+}
+
+.img{
+    display: inline;
+    height: 25px;
+    width: 25px;
+    font-size: larger;
+    color: rgb(185, 185, 185);
+}
+
+.text{
+    display: inline;
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: rgb(185, 185, 185);
+    margin-left: 19px;
+}
+
+.text2{
+    display: inline;
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: rgb(185, 185, 185);
+    margin-left: 22px;
+}
+
+.playlist{
+    height:427px;
+    width: 434px;
+    background-color: #121212;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 8px;
+}
+
+.one{
+    height:100px;
+    width: 434px;
+    border-radius: 8px;
+    background-color: #121212;
+}
+
+
+.shot{
+    height: 48px;
+    width: 434px;
+    background-image: url("Capture.JPG");
+    background-size: cover;
+    border-radius: 8px;
+    top: 2px;
+}
+
+.name{
+    height: 27px;
+    width: 75px;
+    border-radius: 20px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    font-weight: 400;
+    position: relative;
+    left: 17px;
+    top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    color: rgb(185, 185, 185);
+    position: relative;
+    left: 30px;
+    font-size: large;
+    display: inline;
+}
+
+.three{
+    color: rgb(185, 185, 185);
+    position: relative;
+    left: 300px;
+    display: inline;
+}
+
+.menu{
+    margin-top: 5px;
+}
+
+.li{
+    height: 310px;
+    width: auto;
+    overflow: auto;
+    scrollbar-color: rgb(49, 49, 49) #121212;
+}
+
+.lst{
+    margin-top: 16px;
+    height: 50px;
+    width: 90%;
+}
+
+.play1{
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    border-radius: 4px;
+    position: relative;
+    left: 20px;
+    
+}
+
+.txt{
+    position: relative;
+    left: 70px;
+    width: 140px;
+    color: rgb(185, 185, 185);
+    font-weight: 100;
+}
+
+.songs{
+    height: 547px;
+    width: 915px;
+    background-color: #121212;
+    border-radius: 8px;
+    position: absolute;
+    right: 5px;
+    top: 5px;  
+}
+
+.opt{
+    height: 135px;
+    width: 100%;
+    background-color: #121212;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.up{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 25px;
+}
+
+.left{
+    display: flex;
+    height: 32px;
+    width: 32px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 50%;
+    font-size: large;
+    color: rgb(185, 185, 185);
+    position: absolute;
+    left: 25px;
+}
+
+.right{
+    display: flex;
+    height: 32px;
+    width: 32px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 50%;
+    font-size: large;
+    color: rgb(185, 185, 185);
+    position: absolute;
+    left: 66px;
+}
+
+.prem{
+    height: 27px;
+    width: 138px;
+    padding-left: 18px;
+    padding-top: 5px;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    right: 263px;
+}
+
+.app{
+    height: 28px;
+    width: 115px;
+    padding-left: 18px;
+    padding-top: 5px;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 116px;
+}
+
+.bell{
+    display: flex;
+    height: 32px;
+    width: 32px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 50%;
+    font-size: large;
+    color: white;
+    position: absolute;
+    right: 72px;
+}
+
+.dp{
+    display: flex;
+    height: 32px;
+    width: 32px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    right: 26px;
+}
+
+.down{
+    display: flex;
+    position: relative;
+    top: 83px;
+}
+
+.a{
+    height: 25px;
+    width: 30px;
+    padding-left: 10px;
+    padding-top: 3px;
+    border-radius: 50px;
+    background-color: white;
+    position: relative;
+    left: 18px;
+}
+
+.m{
+    height: 25px;
+    width: 52px;
+    padding-left: 10px;
+    padding-top: 2px;
+    border-radius: 50px;
+    background-color: #353535;
+    color: #F4F4F4;
+    position: relative;
+    left: 27px;
+}
+
+.pod{
+    height: 25px;
+    width: 71px;
+    padding-left: 10px;
+    padding-top: 2px;
+    border-radius: 50px;
+    background-color: #353535;
+    color: #F4F4F4;
+    position: relative;
+    left: 35px;
+}
+
+.scroll{
+    height: 10.5cm;
+    width: 100%;
+    overflow: auto;
+    scrollbar-color: rgb(49, 49, 49) #121212;
+}
+
+.title1{
+    font-size: x-large;
+    font-weight: bolder;
+    padding-left: 18px;
+    color: white;
+}
+
+.title{
+    font-size: x-large;
+    font-weight: bolder;
+    padding-left: 18px;
+    color: white;
+    padding-top: 55px;
+}
+
+.all{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.frame{
+    height: 7.2cm;
+    width: 5.2cm;
+    border-radius: 8px;
+    background-color: #181818;
+}
+
+.inner{
+    height: 5.2cm;
+    width: 5.2cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo{
+    height: 4.5cm;
+    width: 4.5cm;
+    background-size: cover;
+    border-radius: 3px;
+}
+
+.letter{
+    font-weight: bolder;
+    padding-left: 11px;
+    color: white;
+}
+
+.letter2{
+    font-size: small;
+    padding-top: 10px;
+    padding-left: 11px;
+    color: rgb(185, 185, 185);
+}
+
+footer{
+    height: 88px;
+    width: 100%;
+    background-image: url("player.JPG");
+    background-size: cover;
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+}
+
+.frame:hover{
+    background-color: #353535;
+}
